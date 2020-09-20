@@ -1,7 +1,7 @@
 # Conociendo el Lenguaje Php (I)
 ####  Inserción de código en páginas web, variables, errores y mensajes de Error
 
-#### Activitad 1
+#### Actividad 1
 
 Convierte la página estática `index.html` facilitada, en un script php que muestre tu nombre y apellidos.
 Utiliza código php para generar la salida
@@ -12,12 +12,12 @@ Utiliza código php para generar la salida
         
 ```
 
-#### Activitad 2
+#### Actividad 2
 
 Modifica el programa anterior para que muestre tu dirección y tu número de teléfono. Cada dato
-se debe mostrar en una línea diferente. `<p></p>`
+se debe mostrar en una línea diferente. Debes usar las etiquetas: `<p></p>`
 
-#### Activitad 3
+#### Actividad 3
 
 Escribe un programa que muestre por pantalla 10 palabras en inglés junto a su correspondiente
 traducción al castellano. Las palabras deben estar distribuidas en dos columnas. Utiliza la etiqueta
@@ -29,20 +29,22 @@ traducción al castellano. Las palabras deben estar distribuidas en dos columnas
 | Repository          | Repositorio      |
 | Programing Language      | Lenguaje de Programación      |
 
-#### Activitad 4
+#### Actividad 4
 
-Escribe un programa que muestre tu horario de clase mediante una tabla. 
+Escribe un programa que muestre tu horario de clase mediante una tabla. Los nombres de cada módulo deben estar 
+dentro de una variable. Intenta repetir el menor código posible. 
 Aunque se puede hacer integramente con HTML, utiliza las directivas `<?= ... ?>` para mostrar cada línea.
 
-#### Activitad 5
+#### Actividad 5
 
-Escribe un programa que cree la variable `$nombre`, le asigne tu nombre completo y muestre su valor por pantalla de forma
-que el resultado sea el mismo que el del ejercicio 1.
+Escribe un programa que cree la variable `$nombre`, le asigne tu nombre completo y muestre su valor por pantalla 
+de forma que el resultado sea el mismo que el del ejercicio 1.
 
-#### Activitad 6
+#### Actividad 6
 
 Escribe un programa que declare 5 variables `$preferencia1`, `$preferencia2`,.. `$preferencia5`, almacena en cada 
-una de ellas Èl nombre de un IDE para php y genere una página web con una lista ordenada. `<ul><li></li></ul>`
+una de ellas el nombre de un IDE para php y genere una página web con una lista ordenada. Recuerda 
+que las listas ordenadas se crean haciendo uso de las etiquetas: `<ul><li></li></ul>`
 
 1. PHPStorm
 2. VisualStudio Code
@@ -50,12 +52,13 @@ una de ellas Èl nombre de un IDE para php y genere una página web con una list
 4. NetBeans
 5. Atom
 
-#### Activitad 7
+#### Actividad 7
+
 1. Muestra por pantalla una pirámide hecha con asteriscos de base 9
 2. Muéstrala vacia
 3. Muéstrala invertida
 
-#### Activitad 8
+#### Actividad 8
 
 A partir del script php facilitado:
 
@@ -83,10 +86,10 @@ Lee el siguiente enlace [Php.net Error Reporting](https://www.php.net/manual/es/
     **Nota** Comenta aquellos que no se necesiten para el correcto funcionamiento del programa
 4. Describe el significado de cada error. ¿Quñe opción activarias para que solo se mostrase ese tipo de error?
 
-#### Activitad 9
+#### Actividad 9
 Escribe un programa que declare 2 variables ``$num1`` y ``$num2`` las inicialice con un número entero y muestre por pantalla
 la suma, multiplicacion, division, resta, módulo y el resultado de aplicar a las 2 variables el operador postincremento y preincremento
 
-#### Activitad 10
-Escribe un programa que calcule el total de una factura a partir de la base imponible (precio sin IVA).
-La base imponible estará almacenada en una variable.
+#### Actividad 10
+Busca en Internet la fórmula que calcula el IMC de una persona. Escribe un programa que calcule el IMC de una persona. 
+Tanto el peso como la altura deben estar almacenadas en dos variables ``$altura`` y ``$peso``. 
